@@ -1,0 +1,320 @@
+
+html, body {margin:0;min-height:100%;margin:0;}
+body {background-image:url('/images/bc.jpg'); background-size:cover; background-position:center center;background-attachment:fixed;}
+.container{/*(http://weknowyourdreams.com/images/beach/beach-04.jpg)*/
+     
+     max-width:1200px;
+     
+     
+     margin: 0 auto;
+}
+.weatherContainer{
+    min-width:250px;
+    float:left;
+    
+    
+
+}
+
+#header input[type="text"] {color:white !important; border:1px solid white !important; 
+background:none !important; border-radius:5px !important; 
+padding:7px;
+margin-left:10px; margin-right:30px;
+ 
+
+ }
+
+#header {background:rgba(0,0,0,0.5); width:100%; color:white;}
+.weatherTown{
+    padding-right:30px;
+   float:left;
+}
+.weatherTown h2{
+        font-family:Helvetica;
+
+}
+.weatherD{
+   min-width:100px;
+  float:right;
+  
+
+}
+.weatherD h3{
+  
+     font-family:Helvetica;
+
+}
+
+.weatherImage{
+     width:70px;
+     height:70px;
+   float:left;
+   margin-right:30px;
+}
+.searchRes{
+    
+    
+    margin:70px auto 0 auto;
+    
+   
+    max-width:700px;
+   
+}
+.searchRes h2{
+      font-family:Helvetica;
+    text-align:center;
+}
+
+.formclass{
+    
+   min-height: 70px;
+   margin:0 auto;
+	
+    
+    
+}
+.formclass form{
+     min-width: 400px;
+    float: right;
+    padding-top: 15px;
+	
+}
+.inputboxclass {
+     width:100%;
+   /* float:left;*/
+   /* margin:0 auto;*/
+	/*height:100%*/
+}
+
+.btnsearch{
+       width: 100px;
+    background: #0058FF;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+}
+.btnsearch:hover {
+    background:red !important;
+    
+}
+
+.inputboxclass #cityid{
+     
+
+       width: 200px;
+    margin::10 auto;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 10px;
+}
+.inputboxclass #arrivalid{
+      
+    width: 100px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    padding: 10px;
+}    
+
+.inputboxclass #returnid{
+      
+    width: 100px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    padding: 10px;
+}  
+
+.piccontainer{
+    
+    margin:0 auto;
+    
+}
+
+.col:hover {border-color:#3498db; transition:border-color 1s;-webkit-transition:border-color 1s;-moz-transition:border-color 1s;}
+.col{
+    min-height:200px;
+    border: 2px solid #8C8C8C;
+    margin:0 auto;
+   /* margin-top:2px;*/
+   padding-left:20px;
+   padding-top:20px;
+   width:100%;
+    max-width:1050px;
+     border-radius:20px;
+     margin-bottom:20px;
+}
+.pic{
+     width:150px;
+     height:150px;
+     border-radius:50%;
+     float:left;
+     background-size:cover;
+     background-position:center center;
+     
+}
+.infoCont{
+    
+     margin:0 auto;
+     width:850px;
+     float:right;
+}
+.col-row1 {
+    
+    min-height:120px;
+    
+}
+.wrapper{
+      font-family:Helvetica;
+      
+         
+}
+.wrapper span {font-size:25px;}
+
+.btn {
+    float:right;
+    width:100px;
+    height:31px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+
+.rateValue{
+      width:100px;
+      float:left;
+      font-family:Helvetica;
+      margin-left:20px;
+
+}
+.ratenum{
+      width:40px;
+
+      float:left;
+      font-family:Helvetica;
+      margin-left:20px;
+}
+.outof{
+    width:50px;
+    height:40px;
+      float:left;
+      margin-top:10px;
+}
+.couponC{
+     
+         display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+     width: 200px;
+    float: right;
+ 
+
+}
+.priceClass{
+    
+    float:left;
+}
+.hotels{
+     width:100px;
+    float:left;
+}
+.hotels img{
+    width:100px;
+    height:60px;
+    margin-top:-5px;
+}
+.hotels h3{
+    text-align:center;
+    font-family:Helvetica;
+
+}
+.quikbook{
+     width:100px;
+    float:right
+}
+.quikbook h3{
+    text-align:center;
+    font-family:Helvetica;
+
+}
+.quikbook img{
+    width:100px;
+    height:60px;
+}
+.title{
+     width:400px;
+     font-family:Helvetica;
+     /*margin:20 auto;*/
+	/* height:30%;*/
+    float:left;
+    margin-left:20px;
+}
+
+.datebox{
+         width:50px;
+
+}
+
+
+	
+    
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {    height: 100% !important;
+    width: 100% !important;}
+.carousel {
+    position: relative;
+    max-width: 180px;
+    height: 100px;
+    margin-bottom:20px;
+}
+.carousel-indicators {
+    bottom: -31px !important;
+}
+
+.carousel-indicators .active {
+    
+    background-color: #000 !important;
+}
+.carousel-indicators li {
+    
+    background-color: rgba(0,0,0,0) !important;
+    border: 1px solid #000 !important;
+    
+}
+
+.btn {color:black !important; background:white !important;border:2px solid black !important; 3px 10px 7px 10px !important; height:auto !important;}
+.btn:hover {background:black !important; color:white !important; }
+
+/*
+.inputboxclass #submitid{
+     width:15%;
+    float:right;
+    margin:10 auto;
+	height:40px;
+}
+*/

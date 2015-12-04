@@ -1,0 +1,1350 @@
+<html>
+
+<head>
+     <link rel="stylesheet" href="webstylesheet.css" type="text/css" />
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <title>Deals and Activities</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 75%;
+	  height: 500px;
+      margin: auto;
+  }
+  </style>
+        	
+</head>
+
+<body>
+
+<div id="header">
+    <div class="container">
+
+        <div class="formclass">
+
+            <div class="weatherContainer">
+                <div class="weatherTown">
+                    <h2>vancouver</h2>
+                </div>
+                 <div class="weatherImage" style="background-image:url(//ssl.gstatic.com/onebox/weather/64/cloudy.png);">
+                    <!--<img src="//ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"/>-->
+                </div>
+                <div class="weatherD">
+                
+                     <h3>48 <span>&deg;F</span></h3>
+                </div>
+                
+
+            </div>
+            <form action="/cgi-bin/readfile.py" method="post">
+                <div class="inputboxclass">
+                    City:<input id="cityid" type="text" name="city_name" placeholder="Where">
+                    Check in:<input id="arrivalid" type="text" name="arrival_name" placeholder="dd/mm/yyyy">
+                   Check out:<input id="returnid" type="text" name="return_name" placeholder="dd/mm/yyyy">
+                   <input type="submit" value="Search!" class="btnsearch">
+                </div>
+
+            </form>
+        </div>
+</div>
+</div>
+ <div class="container" style="background:rgba(255,255,255,0.8); min-height:100%; padding-top:30px; ">
+        <div class="searchRes">
+            <h2> Search result for vancouver on 12/06/2015</h2>
+        </div>
+
+        <div class="piccontainer">
+
+    
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/20000/14900/14811/14811_171_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Poco Inn and Suites Hotel & Conference Centre</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$119</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 126.61
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow0' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow0' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow0' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>3.5</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/4000000/3050000/3049500/3049471/3049471_64_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Pinnacle Hotel at the Pier</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$132</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 104.14
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow1' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow1' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow1' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>4.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/2000000/1200000/1194400/1194357/1194357_37_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Coast Hotel & Convention Centre Langley City</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$82</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 81.66
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow2' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow2' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow2' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>3.5</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/900000/891400/891367/891367_31_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Grouse Inn</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$46</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+
+$ 68.92
+
+$ 48.24
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow3' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow3' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow3' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Fair</span> <span>3.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/5000000/4490000/4480300/4480276/4480276_52_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Sandman Signature Langley Hotel</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$107</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+
+$ 120.80
+
+$ 96.64
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow4' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow4' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow4' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>3.5</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/2000000/1970000/1968700/1968637/1968637_63_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>L&apos;Hermitage Hotel</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$107</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 116.12
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow5' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow5' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow5' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Excellent</span> <span>4.5</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/80000/74900/74843/74843_64_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Delta Town & Country Inn</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$69</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 74.17
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow6' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow6' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow6' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Fair</span> <span>3.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/30000/23700/23624/23624_51_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>The Sutton Place Hotel - Vancouver</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$204</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+
+$ 218.76
+
+$ 164.07
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow7' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow7' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow7' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>4.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/20000/13400/13323/13323_272_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Pinnacle Hotel Vancouver Harbourfront</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$97</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 111.63
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow8' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow8' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow8' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>4.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/70000/66000/65941/65941_69_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Accent Inns Burnaby</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$96</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 81.66
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow9' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow9' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow9' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Fair</span> <span>3.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/980000/970600/970511/970511_109_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Ocean Promenade Hotel</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$82</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 81.66
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow10' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow10' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow10' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Fair</span> <span>3.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/3000000/2760000/2755400/2755303/2755303_36_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Delta Burnaby Hotel and Conference Centre</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$124</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 111.63
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow11' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow11' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow11' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>4.0</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/30000/21900/21807/21807_87_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Sandman Hotel Vancouver City Centre</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$82</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+
+$ 102.08
+
+$ 81.66
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow12' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow12' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow12' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>3.5</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/1000000/60000/53000/52903/52903_91_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>Granville Island Hotel</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$136</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 132.75
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow13' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow13' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow13' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>3.5</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+                
+       <div class="col">
+    <div class="pic" style="background-image:url(http://images.travelnow.com/hotels/2000000/1660000/1657100/1657058/1657058_46_d.jpg);">
+    </div>
+    <div class="infoCont">
+
+        <div class="col-row1">
+            <div class="title">
+                <h2>The Sylvia Hotel</h2>
+                
+            </div>
+
+            <div class="priceClass">   
+                <div class="hotels">
+                    <h3>$83</h3>
+                    <a href="http://www.hotels.com/" target="_blank"><img src="/images/hotels.png"></a>
+                </div>
+                <div class="quikbook">
+                    <h3>
+$ 89.90
+</h3>
+                    <a href="http://www.quikbook.com/" target="_blank"><img src="/images/quikbook.png"></a>
+                </div>
+            </div>
+            <div class="couponC">
+                <br>
+                <div id='slideshow14' class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.groupon.com/local/restaurants" target="_blank">
+                                <img src="/images/dining.PNG" alt="dining deals">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://www.carrentals.com/" target="_blank">
+                                <img src="/images/car-rental.jpg" alt="Car Rental">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://greatmuseums.org/find_a_museum" target="_blank">
+                                <img src="/images/museum.jpg" alt="Museum">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.eventbrite.com/" target="_blank">
+                                <img src="/images/events.jpg" alt="Events">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href='#slideshow14' data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href='#slideshow14' data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="btn">Book Now!</div>
+            </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: false
+                });
+            </script>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <span style="padding-right:10px">Good</span> <span>3.5</span> <span style="font-size:20px; font-weight:lighter; color:#666666">/5</span>
+    </div>
+</div>
+
+            </div></div></body></html>
